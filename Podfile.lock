@@ -1,0 +1,31 @@
+PODS:
+  - EFInternetIndicator (0.2.0):
+    - EFInternetIndicator/Interface (= 0.2.0)
+    - EFInternetIndicator/Network (= 0.2.0)
+  - EFInternetIndicator/Interface (0.2.0):
+    - SwiftMessages
+  - EFInternetIndicator/Network (0.2.0):
+    - ReachabilitySwift
+  - EstimoteIndoorSDK (2.5.0):
+    - EstimoteSDK (~> 4.14.1)
+  - EstimoteSDK (4.14.1)
+  - ReachabilitySwift (3)
+  - RevealingSplashView (0.2.0)
+  - SwiftMessages (3.3.3)
+
+DEPENDENCIES:
+  - EFInternetIndicator
+  - EstimoteIndoorSDK
+  - RevealingSplashView
+
+SPEC CHECKSUMS:
+  EFInternetIndicator: 76219397add7b5f2388869fa4d9305d0c6af51e1
+  EstimoteIndoorSDK: dda0fb62f996364eb9e913f7109484bbc010e449
+  EstimoteSDK: 5ac94b0f4d923f6120b8e133b597c57b4ed13488
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  RevealingSplashView: a19962358db66188841c73afd51eb663a29f75cd
+  SwiftMessages: '09cea3336e3fb63c3578983c8aac65acaa6d884a'
+
+PODFILE CHECKSUM: fe1c07ee1e9b1dfbc0f111c878ce24f84df1a177
+
+COCOAPODS: 1.2.1
