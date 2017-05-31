@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		502838CF1ED755C800144E6D /* GetConfiguredLocationByIdRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502838CE1ED755C800144E6D /* GetConfiguredLocationByIdRequest.swift */; };
 		50403B6B1ED42FB7005E9864 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50403B6A1ED42FB7005E9864 /* Helper.swift */; };
+		5061C6001ED78B1600168F41 /* DeleteLocationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5061C5FF1ED78B1600168F41 /* DeleteLocationRequest.swift */; };
+		507FE9041ED6F58D0068E723 /* BackendRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507FE9031ED6F58D0068E723 /* BackendRequest.swift */; };
 		50B077B01EC9DB370065A183 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B077AF1EC9DB370065A183 /* AppDelegate.swift */; };
 		50B077B21EC9DB370065A183 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B077B11EC9DB370065A183 /* ViewController.swift */; };
 		50B077B51EC9DB370065A183 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50B077B31EC9DB370065A183 /* Main.storyboard */; };
@@ -15,7 +18,9 @@
 		50B077BA1EC9DB370065A183 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50B077B81EC9DB370065A183 /* LaunchScreen.storyboard */; };
 		50B077C51EC9DB370065A183 /* BiglTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B077C41EC9DB370065A183 /* BiglTests.swift */; };
 		50B077D01EC9DB370065A183 /* BiglUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B077CF1EC9DB370065A183 /* BiglUITests.swift */; };
-		50E115AD1ED5B6340072F9FE /* bigl.png in Resources */ = {isa = PBXBuildFile; fileRef = 50E115AC1ED5B6340072F9FE /* bigl.png */; };
+		50C22E581ED6F2AD001FC8F3 /* GetLocationsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C22E571ED6F2AD001FC8F3 /* GetLocationsRequest.swift */; };
+		50D405331ED5CBD900F78ACE /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D405321ED5CBD900F78ACE /* MasterViewController.swift */; };
+		50D405371ED5F4E200F78ACE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D405361ED5F4E200F78ACE /* DetailViewController.swift */; };
 		50E115AF1ED5B9E40072F9FE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E115AE1ED5B9E40072F9FE /* Constants.swift */; };
 		BCE92A8DEC9FEAD1C17FC71E /* Pods_Bigl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0B0E0A2A36F5C10CEC778B /* Pods_Bigl.framework */; };
 /* End PBXBuildFile section */
@@ -40,7 +45,10 @@
 /* Begin PBXFileReference section */
 		0D6A02C8E4684CF2DE844A0C /* Pods-Bigl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bigl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bigl/Pods-Bigl.debug.xcconfig"; sourceTree = "<group>"; };
 		500B2CBD1EC9E46800AED49D /* ObjCBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCBridge.h; sourceTree = "<group>"; };
+		502838CE1ED755C800144E6D /* GetConfiguredLocationByIdRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetConfiguredLocationByIdRequest.swift; sourceTree = "<group>"; };
 		50403B6A1ED42FB7005E9864 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		5061C5FF1ED78B1600168F41 /* DeleteLocationRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteLocationRequest.swift; sourceTree = "<group>"; };
+		507FE9031ED6F58D0068E723 /* BackendRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackendRequest.swift; sourceTree = "<group>"; };
 		50B077AC1EC9DB370065A183 /* Bigl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bigl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50B077AF1EC9DB370065A183 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50B077B11EC9DB370065A183 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,7 +62,9 @@
 		50B077CB1EC9DB370065A183 /* BiglUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BiglUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50B077CF1EC9DB370065A183 /* BiglUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiglUITests.swift; sourceTree = "<group>"; };
 		50B077D11EC9DB370065A183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		50E115AC1ED5B6340072F9FE /* bigl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bigl.png; path = ../../../android/Bigl/bigl.png; sourceTree = "<group>"; };
+		50C22E571ED6F2AD001FC8F3 /* GetLocationsRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetLocationsRequest.swift; sourceTree = "<group>"; };
+		50D405321ED5CBD900F78ACE /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		50D405361ED5F4E200F78ACE /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		50E115AE1ED5B9E40072F9FE /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E790DCB2F491A6104F2754B7 /* Pods-Bigl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bigl.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bigl/Pods-Bigl.release.xcconfig"; sourceTree = "<group>"; };
 		EF0B0E0A2A36F5C10CEC778B /* Pods_Bigl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bigl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,16 +121,15 @@
 		50B077AE1EC9DB370065A183 /* Bigl */ = {
 			isa = PBXGroup;
 			children = (
-				50E115AC1ED5B6340072F9FE /* bigl.png */,
+				50C22E561ED6F275001FC8F3 /* Backend */,
 				50B077AF1EC9DB370065A183 /* AppDelegate.swift */,
-				50B077B11EC9DB370065A183 /* ViewController.swift */,
-				50B077B31EC9DB370065A183 /* Main.storyboard */,
-				500B2CBD1EC9E46800AED49D /* ObjCBridge.h */,
+				50C22E551ED6EC6B001FC8F3 /* View */,
+				50C22E541ED6EC45001FC8F3 /* Controllers */,
 				50B077B61EC9DB370065A183 /* Assets.xcassets */,
-				50B077B81EC9DB370065A183 /* LaunchScreen.storyboard */,
-				50B077BB1EC9DB370065A183 /* Info.plist */,
-				50403B6A1ED42FB7005E9864 /* Helper.swift */,
 				50E115AE1ED5B9E40072F9FE /* Constants.swift */,
+				50403B6A1ED42FB7005E9864 /* Helper.swift */,
+				500B2CBD1EC9E46800AED49D /* ObjCBridge.h */,
+				50B077BB1EC9DB370065A183 /* Info.plist */,
 			);
 			path = Bigl;
 			sourceTree = "<group>";
@@ -141,6 +150,36 @@
 				50B077D11EC9DB370065A183 /* Info.plist */,
 			);
 			path = BiglUITests;
+			sourceTree = "<group>";
+		};
+		50C22E541ED6EC45001FC8F3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				50D405321ED5CBD900F78ACE /* MasterViewController.swift */,
+				50D405361ED5F4E200F78ACE /* DetailViewController.swift */,
+				50B077B11EC9DB370065A183 /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		50C22E551ED6EC6B001FC8F3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				50B077B31EC9DB370065A183 /* Main.storyboard */,
+				50B077B81EC9DB370065A183 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		50C22E561ED6F275001FC8F3 /* Backend */ = {
+			isa = PBXGroup;
+			children = (
+				50C22E571ED6F2AD001FC8F3 /* GetLocationsRequest.swift */,
+				507FE9031ED6F58D0068E723 /* BackendRequest.swift */,
+				502838CE1ED755C800144E6D /* GetConfiguredLocationByIdRequest.swift */,
+				5061C5FF1ED78B1600168F41 /* DeleteLocationRequest.swift */,
+			);
+			name = Backend;
 			sourceTree = "<group>";
 		};
 		8D224A49663CC21A7D2E3847 /* Pods */ = {
@@ -272,7 +311,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				50B077BA1EC9DB370065A183 /* LaunchScreen.storyboard in Resources */,
-				50E115AD1ED5B6340072F9FE /* bigl.png in Resources */,
 				50B077B71EC9DB370065A183 /* Assets.xcassets in Resources */,
 				50B077B51EC9DB370065A183 /* Main.storyboard in Resources */,
 			);
@@ -347,8 +385,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				507FE9041ED6F58D0068E723 /* BackendRequest.swift in Sources */,
 				50B077B21EC9DB370065A183 /* ViewController.swift in Sources */,
 				50B077B01EC9DB370065A183 /* AppDelegate.swift in Sources */,
+				5061C6001ED78B1600168F41 /* DeleteLocationRequest.swift in Sources */,
+				50D405331ED5CBD900F78ACE /* MasterViewController.swift in Sources */,
+				50C22E581ED6F2AD001FC8F3 /* GetLocationsRequest.swift in Sources */,
+				502838CF1ED755C800144E6D /* GetConfiguredLocationByIdRequest.swift in Sources */,
+				50D405371ED5F4E200F78ACE /* DetailViewController.swift in Sources */,
 				50403B6B1ED42FB7005E9864 /* Helper.swift in Sources */,
 				50E115AF1ED5B9E40072F9FE /* Constants.swift in Sources */,
 			);
@@ -504,10 +548,52 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4KTYH769XN;
-				ENABLE_BITCODE = "$(inherited)";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Bigl/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"EstimoteIndoorSDK\"",
+					"-l\"c++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"APIKit\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CoreBluetooth\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreMotion\"",
+					"-framework",
+					"\"EFInternetIndicator\"",
+					"-framework",
+					"\"EstimoteSDK\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"ReachabilitySwift\"",
+					"-framework",
+					"\"Result\"",
+					"-framework",
+					"\"RevealingSplashView\"",
+					"-framework",
+					"\"SwiftMessages\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-lc++",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = bigl.Bigl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				"SWIFT_OBJC_BRIDGING_HEADER[sdk=iphoneos*]" = "${PROJECT_NAME}/ObjCBridge.h";
@@ -521,10 +607,52 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4KTYH769XN;
-				ENABLE_BITCODE = "$(inherited)";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Bigl/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"EstimoteIndoorSDK\"",
+					"-l\"c++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"APIKit\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CoreBluetooth\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreMotion\"",
+					"-framework",
+					"\"EFInternetIndicator\"",
+					"-framework",
+					"\"EstimoteSDK\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"ReachabilitySwift\"",
+					"-framework",
+					"\"Result\"",
+					"-framework",
+					"\"RevealingSplashView\"",
+					"-framework",
+					"\"SwiftMessages\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-lc++",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = bigl.Bigl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				"SWIFT_OBJC_BRIDGING_HEADER[sdk=iphoneos*]" = "${PROJECT_NAME}/ObjCBridge.h";
